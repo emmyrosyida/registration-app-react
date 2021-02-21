@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  background-color: #66bfbf;
+  color: white;
+  padding: 5px 2rem;
+  margin-bottom: 2rem;
+}
+
+.img {
+  padding-right: 1em;
+  padding-top: 5px;
+}

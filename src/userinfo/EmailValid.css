@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+}
+
+.width {
+  width: 100%;
+  margin-top: 2em;
+}
+
+th {
+  background-color: #467a7a;
+  color: #fff;
+  text-align: center;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #58afaf;
+  color: #fff;
+}

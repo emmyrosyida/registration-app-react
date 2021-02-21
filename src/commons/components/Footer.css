@@ -1,0 +1,17 @@
+.footer {
+  bottom: 0;
+  clear: both;
+  display: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0px;
+  color: #fff;
+  background-color: #467a7a;
+}
+
+@media (min-height: 456px) {
+  .footer {
+    position: absolute;
+  }
+}

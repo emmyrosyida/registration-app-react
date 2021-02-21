@@ -1,0 +1,65 @@
+.row {
+  display: flex;
+  margin: 0 auto;
+}
+
+.column {
+  margin-top: 10px;
+  padding-left: 3%;
+  margin-left: 1em;
+  width: 40%;
+}
+
+.column input {
+  width: 100%;
+  height: 2em;
+}
+
+.column select {
+  width: 103%;
+  height: 2.5em;
+}
+
+.column-full {
+  margin: 2rem auto;
+}
+
+button {
+  width: 70%;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  height: 2.5em;
+  background-color: #11999e;
+}
+
+button:hover {
+  background-color: #0e8286;
+}
+
+.required label::after {
+  content: "*";
+  color: red;
+}
+
+.markred {
+  color: red;
+  font-weight: 700;
+}
+
+.errorMsg {
+  color: red;
+  position: relative;
+  font-size: 12px;
+}
+
+form {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.loader {
+  display: absolute;
+  margin: auto auto;
+  z-index: 9999;
+}
